@@ -1,0 +1,297 @@
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+Found addresses!
+b1524460
+9
+b1522780
+9
+b1522740
+9
+Building stuff.
+Building stuff.
+Inside o...
+Success?
+Cleaning up
+Loading and running main
+Loaded
+Exploit triggered. Beginning breakage.
+Disabling watchdog timer...
+Found gadget at 0x0000002e626e3dec
+Found gadget at 0x0000005836774508
+Found gadget at 0x0000005836a62308
+Found gadget at 0x0000005836ac7644
+Found gadget at 0x0000005836a676d8
+Found gadget at 0x00000058367ab978
+Found gadget at 0x00000058369f7c54
+Found gadget at 0x000000583678b9b4
+Found gadget at 0x0000005836a62364
+Found gadget at 0x0000005836a64db0
+Found gadget at 0x00000058369db7ec
+Found gadget at 0x000000583667e2e0
+Found gadget at 0x0000005836731794
+Found gadget at 0x0000005836a8735c
+Found gadget at 0x0000005836aa7a6c
+Found gadget at 0x0000005836bb56d0
+Found gadget at 0x00000058367aa06c
+Found gadget at 0x0000005836650410
+Found gadget at 0x000000583681a84c
+Found gadget at 0x0000005836608b38
+Found gadget at 0x0000005836ac0c98
+Found gadget at 0x0000005836911d68
+Found gadget at 0x0000005836792ed4
+Found gadget at 0x0000005836aa161c
+Found gadget at 0x00000058368186a4
+VM: 0x00000009b13bd000
+WD: 0x00000009b131e160
+Found gadget at 0x000000583664f9b8
+Found gadget at 0x0000002e633d8824
+Found gadget at 0x00000058369f13bc
+Found gadget at 0x00000058369f13dc
+Found gadget at 0x000000583663105c
+Found gadget at 0x00000058369db800
+Found gadget at 0x00000058369f12d4
+Pegaswitch loaded!
+UA: Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.6.9 NintendoBrowser/5.1.0.14936
+Starting.
+Building stuff.
+Building stuff.
+Failed to find addresses
+Starting.
+Building stuff.
+Building stuff.
+Found addresses!
+569a4460
+3d
+569a2780
+3d
+569a2740
+3d
+Building stuff.
+Building stuff.
+Inside o...
+Success?
+Cleaning up
+Loading and running main
+Loaded
+Exploit triggered. Beginning breakage.
+Disabling watchdog timer...
+VM: 0x0000003d5683d000
+WD: 0x0000003d5679e160
+Pwning sdb module...
+Starting sdbcore...
+Pwning sdb...
+Author ID: 63,90,220,210,153,36,66,208,174,224,34,15,211,68,116,235
+mii handle is 0x32003b
+wipe miis ...
+Found gadget at 0x0000002f6bdf136c
+reloading sdb, this might take a while ...
+new sdb pid: 0xa0
+sdb pid is 0xa0 this.sdb_base at 0x0000006f62200000
+** good base ***
+this.pdm_base at 0x0000006f62350ec0
+writePdm ...
+trigger ...
+cleanup ...
+entering pluhax ...
+trigger ...
+pluSP at 0x000000275a8eb770
+... write
+... read
+read value: 0x1122334429910baf
+... call
+call: 0x1122aabbf00d1234
+Setting up RO hax...
+Opening SM handle
+0x0000000000000000
+SM handle: e8018
+0x0000000000000000
+0
+80000008
+20
+f0019
+Port handle: f0019
+IPC message:
+- PID: 0x0000000000000078
+- Moved handles
+    - 0x360039
+ldr:ro is PID 0x78
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+Failed to find addresses
+Starting.
+Building stuff.
+Building stuff.
+Failed to find addresses
+Starting.
+Building stuff.
+Building stuff.
+Failed to find addresses
+Starting.
+Building stuff.
+Building stuff.
+Found addresses!
+70b24460
+61
+70b22780
+61
+70b22740
+61
+Building stuff.
+Building stuff.
+Inside o...
+Success?
+Cleaning up
+Loading and running main
+Loaded
+Exploit triggered. Beginning breakage.
+Disabling watchdog timer...
+VM: 0x00000061709bd000
+WD: 0x000000617091e160
+Pegaswitch loaded!
+UA: Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.6.9 NintendoBrowser/5.1.0.14936
+Starting.
+Building stuff.
+Building stuff.
+ERR [43]: Uncaught ReferenceError: VTTRegion is not defined
+Starting.
+Building stuff.
+Building stuff.
+Failed to find addresses
+Starting.
+Building stuff.
+Building stuff.
+Found addresses!
+d91a4460
+21
+d91a2780
+21
+d91a2740
+21
+Building stuff.
+Building stuff.
+Inside o...
+Success?
+Cleaning up
+Loading and running main
+Loaded
+Exploit triggered. Beginning breakage.
+Disabling watchdog timer...
+VM: 0x00000021d903d000
+WD: 0x00000021d8f9e160
+Pegaswitch loaded!
+UA: Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.6.9 NintendoBrowser/5.1.0.14936
+Starting.
+Building stuff.
+Building stuff.
+Found addresses!
+5f7a4460
+63
+5f7a2780
+63
+5f7a2740
+63
+Building stuff.
+Building stuff.
+Inside o...
+Success?
+Cleaning up
+Loading and running main
+Loaded
+Exploit triggered. Beginning breakage.
+Disabling watchdog timer...
+VM: 0x000000635f63d000
+WD: 0x000000635f59e160
+Pegaswitch loaded!
+UA: Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.6.9 NintendoBrowser/5.1.0.14936
+Starting.
+Building stuff.
+Building stuff.
+Found addresses!
+efda4460
+56
+efda2780
+56
+efda2740
+56
+Building stuff.
+Building stuff.
+Inside o...
+Success?
+Cleaning up
+Loading and running main
+Loaded
+Exploit triggered. Beginning breakage.
+Disabling watchdog timer...
+VM: 0x00000056efc3d000
+WD: 0x00000056efb9e160
+Pegaswitch loaded!
+UA: Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.6.9 NintendoBrowser/5.1.0.14936
+Starting.
+Building stuff.
+Building stuff.
+Failed to find addresses
+Starting.
+Building stuff.
+Building stuff.
+Found addresses!
+9c1a4460
+38
+9c1a2780
+38
+9c1a2740
+38
+Building stuff.
+Building stuff.
+Inside o...
+Success?
+Cleaning up
+Loading and running main
+Loaded
+Exploit triggered. Beginning breakage.
+Disabling watchdog timer...
+VM: 0x000000389c03d000
+WD: 0x000000389bf9e160
+Pegaswitch loaded!
+UA: Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.6.9 NintendoBrowser/5.1.0.14936

@@ -16,11 +16,6 @@ const contrib = require('blessed-contrib');
 const yargs = require('yargs');
 // const dnslookup = require('dns')
 
-if (os.platform() !== 'win32' && process.getuid() !== 0) {
-	console.error('Please run as root so we can bind to port 53 & 80');
-	process.exit();
-}
-
 let argv = yargs
 	.usage('Usage $0')
 	.describe('disable-curses', 'Disabled curses interface. Requires --logfile')
@@ -37,6 +32,17 @@ let argv = yargs
 	.nargs('setuid', 1)
 	.alias('h', 'help')
 	.argv;
+
+var noRoot = false;
+
+if (argv['port'] && argv['disable-dns']){
+	console.error('Running in no root mode');
+	noRoot = true;	
+}
+if (os.platform() !== 'win32' && process.getuid() !== 0 && !noRoot) {
+	console.error('Please run as root so we can bind to port 53 & 80');
+	process.exit();
+}
 
 if (argv['disable-curses'] && !argv.logfile) {
 	console.error('--disable-curses requires --logfile');
@@ -232,7 +238,7 @@ app.post('/fakeInternet', function (req, res) {
 });
 
 httpServerStarted = new Promise((resolve, reject) => {
-	app.listen(80, argv.host || '0.0.0.0', function (err) {
+	app.listen(argv['port'], argv.host || '0.0.0.0', function (err) {
 		if (err) {
 			console.error('Could not bind to port 80');
 			reject();
@@ -266,10 +272,12 @@ Promise.all([dnsServerStarted, httpServerStarted]).then(() => {
 			process.exit(1);
 		}
 	}
-
+	
 	if (argv['disable-curses']) {
 		console.log("Responding with address " + ipAddr);
-		console.log("Switch DNS IP: " + (argv.host || ip.address()) + " (Use this to connect)");
+		if(!argv['disable-dns']){	
+			console.log("Switch DNS IP: " + (argv.host || ip.address()) + " (Use this to connect)");
+		}
 		require('./repl');
 		logger = logf;
 		logf = {log: function() {}};
